@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CA180F7929F8D8BE002588AF /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA180F7829F8D8BE002588AF /* Api.swift */; };
+		CA180F7B29F8DD3B002588AF /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA180F7A29F8DD3B002588AF /* RootViewController.swift */; };
 		CA2BD12F29EAE61F00CC9E5B /* Turbo in Frameworks */ = {isa = PBXBuildFile; productRef = CA2BD12E29EAE61F00CC9E5B /* Turbo */; };
 		CA97453C29EAE52F00C193D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA97453B29EAE52F00C193D2 /* AppDelegate.swift */; };
 		CA97453E29EAE52F00C193D2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA97453D29EAE52F00C193D2 /* SceneDelegate.swift */; };
@@ -15,6 +17,14 @@
 		CA97455329EAE53100C193D2 /* PiazzaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA97455229EAE53100C193D2 /* PiazzaTests.swift */; };
 		CA97455D29EAE53100C193D2 /* PiazzaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA97455C29EAE53100C193D2 /* PiazzaUITests.swift */; };
 		CA97455F29EAE53100C193D2 /* PiazzaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA97455E29EAE53100C193D2 /* PiazzaUITestsLaunchTests.swift */; };
+		CA9F2F4729F8E4E900F2F331 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = CA9F2F4929F8E4E900F2F331 /* Localizable.strings */; };
+		CA9F2F4B29F8E5D400F2F331 /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9F2F4A29F8E5D400F2F331 /* BaseNavigationController.swift */; };
+		CA9F2F4D29F8E6D400F2F331 /* path_configuration.json in Resources */ = {isa = PBXBuildFile; fileRef = CA9F2F4C29F8E6D400F2F331 /* path_configuration.json */; };
+		CA9F2F4F29F8E71C00F2F331 /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9F2F4E29F8E71C00F2F331 /* Global.swift */; };
+		CA9F2F5329F8EA9C00F2F331 /* RoutingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9F2F5229F8EA9C00F2F331 /* RoutingController.swift */; };
+		CA9F2F5729F8EBEA00F2F331 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9F2F5629F8EBEA00F2F331 /* WebViewController.swift */; };
+		CA9F2F5B29FA1C9D00F2F331 /* ViewControllerVendor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9F2F5A29FA1C9D00F2F331 /* ViewControllerVendor.swift */; };
+		CA9F2F5D29FA382D00F2F331 /* PathDirectable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9F2F5C29FA382D00F2F331 /* PathDirectable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +45,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CA180F7829F8D8BE002588AF /* Api.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Api.swift; sourceTree = SOURCE_ROOT; };
+		CA180F7A29F8DD3B002588AF /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = SOURCE_ROOT; };
 		CA97453829EAE52F00C193D2 /* Piazza.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Piazza.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA97453B29EAE52F00C193D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CA97453D29EAE52F00C193D2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -46,6 +58,14 @@
 		CA97455829EAE53100C193D2 /* PiazzaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PiazzaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA97455C29EAE53100C193D2 /* PiazzaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiazzaUITests.swift; sourceTree = "<group>"; };
 		CA97455E29EAE53100C193D2 /* PiazzaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiazzaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CA9F2F4829F8E4E900F2F331 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		CA9F2F4A29F8E5D400F2F331 /* BaseNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
+		CA9F2F4C29F8E6D400F2F331 /* path_configuration.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = path_configuration.json; sourceTree = "<group>"; };
+		CA9F2F4E29F8E71C00F2F331 /* Global.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
+		CA9F2F5229F8EA9C00F2F331 /* RoutingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutingController.swift; sourceTree = "<group>"; };
+		CA9F2F5629F8EBEA00F2F331 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		CA9F2F5A29FA1C9D00F2F331 /* ViewControllerVendor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerVendor.swift; sourceTree = "<group>"; };
+		CA9F2F5C29FA382D00F2F331 /* PathDirectable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathDirectable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +97,14 @@
 		CA97452F29EAE52F00C193D2 = {
 			isa = PBXGroup;
 			children = (
+				CA9F2F4A29F8E5D400F2F331 /* BaseNavigationController.swift */,
+				CA9F2F5629F8EBEA00F2F331 /* WebViewController.swift */,
+				CA9F2F5A29FA1C9D00F2F331 /* ViewControllerVendor.swift */,
+				CA9F2F5229F8EA9C00F2F331 /* RoutingController.swift */,
+				CA9F2F5C29FA382D00F2F331 /* PathDirectable.swift */,
+				CA9F2F4C29F8E6D400F2F331 /* path_configuration.json */,
+				CA9F2F4E29F8E71C00F2F331 /* Global.swift */,
+				CA9F2F4929F8E4E900F2F331 /* Localizable.strings */,
 				CA97453A29EAE52F00C193D2 /* Piazza */,
 				CA97455129EAE53100C193D2 /* PiazzaTests */,
 				CA97455B29EAE53100C193D2 /* PiazzaUITests */,
@@ -98,6 +126,8 @@
 			isa = PBXGroup;
 			children = (
 				CA97453B29EAE52F00C193D2 /* AppDelegate.swift */,
+				CA180F7829F8D8BE002588AF /* Api.swift */,
+				CA180F7A29F8DD3B002588AF /* RootViewController.swift */,
 				CA97453D29EAE52F00C193D2 /* SceneDelegate.swift */,
 				CA97454429EAE53000C193D2 /* Assets.xcassets */,
 				CA97454629EAE53000C193D2 /* LaunchScreen.storyboard */,
@@ -235,7 +265,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA97454829EAE53000C193D2 /* LaunchScreen.storyboard in Resources */,
+				CA9F2F4729F8E4E900F2F331 /* Localizable.strings in Resources */,
 				CA97454529EAE53000C193D2 /* Assets.xcassets in Resources */,
+				CA9F2F4D29F8E6D400F2F331 /* path_configuration.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,8 +312,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA180F7929F8D8BE002588AF /* Api.swift in Sources */,
+				CA9F2F5329F8EA9C00F2F331 /* RoutingController.swift in Sources */,
+				CA9F2F5B29FA1C9D00F2F331 /* ViewControllerVendor.swift in Sources */,
 				CA97453C29EAE52F00C193D2 /* AppDelegate.swift in Sources */,
+				CA9F2F4F29F8E71C00F2F331 /* Global.swift in Sources */,
+				CA9F2F5D29FA382D00F2F331 /* PathDirectable.swift in Sources */,
+				CA180F7B29F8DD3B002588AF /* RootViewController.swift in Sources */,
 				CA97453E29EAE52F00C193D2 /* SceneDelegate.swift in Sources */,
+				CA9F2F4B29F8E5D400F2F331 /* BaseNavigationController.swift in Sources */,
+				CA9F2F5729F8EBEA00F2F331 /* WebViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,6 +364,14 @@
 				CA97454729EAE53000C193D2 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		CA9F2F4929F8E4E900F2F331 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA9F2F4829F8E4E900F2F331 /* en */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
